@@ -4,12 +4,9 @@ void main() {
   runApp(MyApp());
 }
 
-class MyApp extends StatefulWidget {
-  @override
-  _MyAppState createState() => _MyAppState();
-}
+class MyApp extends StatefulWidget {}
 
-class _MyAppState extends State<MyApp> {
+class MyAppState extends State {
   var questionIndex = 0;
 
   void answerQuestion() {
